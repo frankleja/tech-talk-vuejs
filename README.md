@@ -1,21 +1,31 @@
-# tech-talk-vuejs
+# Tech Talk VueJS
 
 Shows some VueJS features. 
 
-## Install Vue CLI 3 
+## Getting started
+
+### 1. Install nodeJS
+[Download nodeJS](https://nodejs.org/en/) and install it. An old version is automatically removed. Path is adjusted automatically.
+
+### 1. Install Vue CLI 3 
+Open a new command window and use node package manager to install the the Vue CLi v3
 ```
 npm install -g @vue/cli
 ```
-See [installation instructions](https://cli.vuejs.org/guide/installation.html)
+See [full installation instructions](https://cli.vuejs.org/guide/installation.html)
 
 ### Create Project visually
+Run this Vue CLI command to open a web site and starting a wizard to create a new project.
 ```
 vue ui
 ```
-[or by command](https://cli.vuejs.org/guide/creating-a-project.html)
+or create a new project with CLI
+```
+vue create hello-world
+```
+[see further options](https://cli.vuejs.org/guide/creating-a-project.html)
 
 ### Learn VueJS
 * [Guide](https://vuejs.org/v2/guide/)
 * [Cookbook](https://vuejs.org/v2/cookbook/)
-* [Axiom to consume APIs](https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)
 * [Style Guide](https://vuejs.org/v2/style-guide/)
