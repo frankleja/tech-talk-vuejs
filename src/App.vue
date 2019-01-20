@@ -3,21 +3,21 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to our VueJS tech talk"/>
     <DataBinding></DataBinding>
-    <CallService></CallService>
+    <ListRendering></ListRendering>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import DataBinding from "./components/DataBinding.vue";
-import CallService from "./components/CallService.vue";
+import ListRendering from "./components/ListRendering.vue";
 
 export default {
   name: "app",
   components: {
     HelloWorld, 
     DataBinding,
-    CallService
+    ListRendering
   }
 };
 </script>
