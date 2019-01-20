@@ -7,7 +7,7 @@
         <h3>Attribute binding</h3>
         <a v-bind:href="linkUrl">{{linkText}}</a>
 
-        <h3>Style class binding</h3>
+        <h3>CSS class binding</h3>
         <p class="fett" v-bind:class="{ big: isBig, red: isRed }">ein Beispieltext</p>
 
         <button v-on:click="isBig ? isBig=false : isBig=true">toggle size</button>

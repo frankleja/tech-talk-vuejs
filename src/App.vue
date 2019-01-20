@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to our VueJS tech talk"/>
+    <FurtherReading msg="Welcome to our VueJS tech talk"/>
     <InputBinding></InputBinding>
     <ListRendering></ListRendering>
     <DataBinding></DataBinding>
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import FurtherReading from "./components/FurtherReading.vue";
 import DataBinding from "./components/DataBinding.vue";
 import ListRendering from "./components/ListRendering.vue";
 import InputBinding from "./components/InputBinding.vue";
@@ -17,7 +17,7 @@ import InputBinding from "./components/InputBinding.vue";
 export default {
   name: "app",
   components: {
-    HelloWorld, 
+    FurtherReading, 
     DataBinding,
     ListRendering,
     InputBinding
