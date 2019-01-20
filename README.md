@@ -1,29 +1,21 @@
 # tech-talk-vuejs
 
-## Project setup
-```
-npm install
-```
+Shows some VueJS features. 
 
-### Compiles and hot-reloads for development
+## Install Vue CLI 3 
 ```
-npm run serve
+npm install -g @vue/cli
 ```
+See [installation instructions](https://cli.vuejs.org/guide/installation.html)
 
-### Compiles and minifies for production
+### Create Project visually
 ```
-npm run build
+vue ui
 ```
+[or by command](https://cli.vuejs.org/guide/creating-a-project.html)
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Learn VueJS
+* [Guide](https://vuejs.org/v2/guide/)
+* [Cookbook](https://vuejs.org/v2/cookbook/)
+* [Axiom ajax](https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)
+* [Style Guide](https://vuejs.org/v2/style-guide/)

@@ -18,10 +18,7 @@ export default {
     // derived data
     computed: {
         date: function () {
-            if (this.timestamp == null) {
-                return null
-            }
-            return this.timestamp.toLocaleString().substr(0,9)
+            return this.timestamp == null ? null : this.timestamp.toLocaleString().substr(0,9)
         }
     },
     // lifecycle hook
