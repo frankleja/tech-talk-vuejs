@@ -2,25 +2,27 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <FurtherReading msg="Welcome to our VueJS tech talk"/>
+<!--
     <InputBinding></InputBinding>
     <ListRendering></ListRendering>
     <DataBinding></DataBinding>
+ --> 
   </div>
 </template>
 
 <script>
-import FurtherReading from "./components-done/FurtherReading.vue";
-import DataBinding from "./components-done/DataBinding.vue";
-import ListRendering from "./components-done/ListRendering.vue";
-import InputBinding from "./components-done/InputBinding.vue";
+import FurtherReading from "./components/FurtherReading.vue";
+//import DataBinding from "./components/DataBinding.vue";
+//import ListRendering from "./components/ListRendering.vue";
+//import InputBinding from "./components/InputBinding.vue";
 
 export default {
   name: "app",
   components: {
     FurtherReading, 
-    DataBinding,
-    ListRendering,
-    InputBinding
+//    DataBinding,
+//    ListRendering,
+//    InputBinding
   }
 };
 </script>
