@@ -25,6 +25,8 @@
         <h3>Text area</h3>
         <textarea v-model="form.message" placeholder="add multiple lines"></textarea>
         <p class="preformatted">{{ form.message }}</p>
+        <button v-on:click="form.message='inline'">clear inline</button>
+        <button @click="clearMessage">clear method</button>
     </div>
 </template>
 
@@ -41,8 +43,12 @@ export default {
                 message: 'erste Zeile\nZeile 2'
             }
         }
+    },
+    methods: {
+        clearMessage() {
+            this.form.message = 'method'
+        }
     }
-
 }
 </script>
 

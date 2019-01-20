@@ -1,11 +1,11 @@
 <template>
     <div class="list-rendering">
         <h2>List Rendering</h2>
-        <ol>
+        <ul>
             <li v-for="(event, index) in events" v-bind:key="event.id">
-            {{index}}. {{ event.equipmentName }} is needed in {{event.targetLocation}}
+            {{index + 1}}. {{ event.equipmentName }} is needed in {{event.targetLocation}} 
             </li>
-        </ol>
+        </ul>
       </div>
 </template>
 
