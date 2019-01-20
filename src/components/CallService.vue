@@ -1,6 +1,6 @@
 <template>
     <div class="call-service">
-        <h2>Call service</h2>
+        <h2>Call service 3</h2>
         <ol>
             <li v-for="event in events">
             {{ event.equipmentName }} is needed in {{event.targetLocation}}
@@ -10,6 +10,8 @@
 </template>
 
 <script>
+import axios from "axios"
+
 export default {
     name: 'CallService',
     data () {
@@ -17,22 +19,16 @@ export default {
             events: []
         }
     },
-    methods: {
-        retrieveEvents: function () {
-            this.$http.get('http://192.168.242.128/erptool/api/v1/events').then(
-                function success (response) {
-                    this.events = response.body
-                },
-                function error (response) {
-                    // common error handling with mixin
-                    console.log('get events xhr error, status code=' + response.status + ', text=' + response.statusText)
-                }
-            )
-        }
-    },
-    created: function () {
-        this.retrieveEvents()
-    }
+    created () {
+        axios.get('http://192.168.242.128/erptool/api/v1/events')
+        .then(function (response) {
+                this.events = response.data
+        })
+        .catch(function (error) {
+            // common error handling with mixin
+            console.log('axios error' + error)
+        })
+    }    
 }
 </script>
 

@@ -22,7 +22,7 @@ export default {
         }
     },
     // lifecycle hook
-    created: function() {
+    created: function () {
         this.setCurrentTime()
     },
     // all component functions

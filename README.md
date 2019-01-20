@@ -17,5 +17,5 @@ vue ui
 ### Learn VueJS
 * [Guide](https://vuejs.org/v2/guide/)
 * [Cookbook](https://vuejs.org/v2/cookbook/)
-* [Axiom ajax](https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)
+* [Axiom to consume APIs](https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)
 * [Style Guide](https://vuejs.org/v2/style-guide/)
