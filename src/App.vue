@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import FurtherReading from "./components/FurtherReading.vue";
-import DataBinding from "./components/DataBinding.vue";
-import ListRendering from "./components/ListRendering.vue";
-import InputBinding from "./components/InputBinding.vue";
+import FurtherReading from "./components-done/FurtherReading.vue";
+import DataBinding from "./components-done/DataBinding.vue";
+import ListRendering from "./components-done/ListRendering.vue";
+import InputBinding from "./components-done/InputBinding.vue";
 
 export default {
   name: "app",
