@@ -2,19 +2,19 @@
     <div class="input-binding">
         <h2>Input Binding</h2>
         <h3>Text field</h3>
-        <input id="text" v-model.trim="form.text" placeholder="edit me">
+        <input id="text" placeholder="edit me">
         <label for="text">Message is: {{ form.text }}|</label>
 
         <h3>Number field</h3>
-        <input id="number" type="number" v-model.number="form.number" >
+        <input id="number" type="number"  >
         <label for="number">Number is: {{ form.number }}</label>
 
         <h3>Checkbox</h3>
-        <input type="checkbox" id="checkbox" v-model="form.checkbox">
+        <input id="checkbox" type="checkbox" >
         <label for="checkbox">state {{ form.checkbox }}</label>
 
         <h3>Drop down list</h3>
-        <select id="singleSelect" v-model="form.singleSelect">
+        <select id="singleSelect" >
         <option disabled value="">Please select one</option>
         <option>A</option>
         <option>B</option>
@@ -23,10 +23,10 @@
         <label for="singleSelect">Selected: {{ form.singleSelect }}</label>
 
         <h3>Text area</h3>
-        <textarea v-model="form.message" placeholder="add multiple lines"></textarea>
+        <textarea  placeholder="add multiple lines"></textarea>
         <p class="preformatted">{{ form.message }}</p>
-        <button v-on:click="form.message='inline'">clear inline</button>
-        <button @click="clearMessage">clear method</button>
+        <button >clear inline</button>
+        <button >clear method</button>
     </div>
 </template>
 

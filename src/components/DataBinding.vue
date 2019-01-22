@@ -1,15 +1,17 @@
 <template>
     <div class="data-binding">
         <h2>Data Binding</h2>
-        <p>current time is {{timestamp}}</p>
+        <p>current time is </p>
+        <p>date is </p>
 
+        <h3>Attribute binding</h3>
+        <a ></a>
 
-        <h3>Attribute binding link</h3>
-
- 
         <h3>CSS class binding</h3>
+        <p class="fett" >ein Beispieltext</p>
 
-
+        <button >toggle size</button>
+        <button >toggle red</button>
     </div>
 </template>
 
