@@ -2,8 +2,8 @@
     <div class="list-rendering">
         <h2>List Rendering</h2>
         <ul>
-            <li >
-            
+            <li v-for="(event, index) in events" v-bind:key="event.id">
+            {{index + 1}}. {{ event.eventName}} is in {{event.targetLocation}}
             </li>
         </ul>
       </div>

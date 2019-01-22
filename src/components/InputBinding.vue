@@ -2,11 +2,11 @@
     <div class="input-binding">
         <h2>Input Binding</h2>
         <h3>Text field</h3>
-        <input id="text" placeholder="edit me">
+        <input id="text" v-model.trim="form.text" placeholder="edit me">
         <label for="text">Message is: {{ form.text }}|</label>
 
         <h3>Number field</h3>
-        <input id="number" type="number"  >
+        <input id="number" v-model.number="form.number" type="number"  >
         <label for="number">Number is: {{ form.number }}</label>
 
         <h3>Checkbox</h3>

@@ -1,18 +1,30 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <FurtherReading msg="Welcome to our VueJS tech talk"/>
+    <HelloWorld></HelloWorld>
+    <FurtherReading></FurtherReading>
+    <ListRendering></ListRendering>
+    <InputBinding></InputBinding>
+    <DataBinding></DataBinding>
   </div>
 </template>
 
 <script>
-import FurtherReading from "./components/FurtherReading.vue"
+import HelloWorld from './components/HelloWorld.vue'
+import FurtherReading from './components-done/FurtherReading.vue'
+import DataBinding from './components-done/DataBinding.vue'
+import InputBinding from './components-done/InputBinding.vue'
+import ListRendering from './components-done/ListRendering.vue'
 
 export default {
   name: "app",
   components: {
-    FurtherReading
-}
+    HelloWorld,
+    FurtherReading,
+    DataBinding,
+    InputBinding,
+    ListRendering
+  }
 };
 </script>
 
