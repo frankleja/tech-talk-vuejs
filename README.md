@@ -25,6 +25,9 @@ vue create hello-world
 ```
 [see further options](https://cli.vuejs.org/guide/creating-a-project.html)
 
+### Edit your code (IDE)
+Install [Visual Studio Code](https://code.visualstudio.com/) and add extension [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) via File | Preferences | Extensions.
+
 ### Learn VueJS
 * [Guide](https://vuejs.org/v2/guide/)
 * [Cookbook](https://vuejs.org/v2/cookbook/)
